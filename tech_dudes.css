@@ -1,0 +1,160 @@
+.rs {
+    width: auto;
+    height: 70px;
+    text-align: center;
+    vertical-align:auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+    animation: 1s blink step-end infinite;
+}
+    @keyframes blink{
+            from , to {
+                color: BLUE;
+            }
+            50% {
+                color:black;
+            }    
+                  
+        }
+
+
+.r1{
+    background-image:url(https://i.ytimg.com/vi/1J2zPpTDtUQ/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    image-orientation:from-image;
+    height:480px;
+    width: inherit;
+    background-position: center;
+        }
+
+body {
+     background-image: url(https://wallpaperaccess.com/full/1429881.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+.r2 img {
+    height: 200px;
+    width:400px;
+    border-width: 5px;
+    border-style:solid;
+    border-color: rgba(5, 5, 92, 0.904);
+    fill: inherit;
+    font-size:10mm;
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+}
+.r2 h2{
+    color: rgb(7, 7, 70);
+    text-decoration: underline;
+    
+}
+
+.r2 a{
+    color: rgba(153, 12, 12, 0.945);
+    font-style: italic;
+    font-weight: bold;
+   
+
+}
+
+.r2 iframe{
+    float: left;
+    padding-left:0;
+    width:400px;
+    height:200px;
+    padding-right: 20px;
+
+}
+.r5{
+    position: relative;
+            top:100%;
+            left:50%;
+            transform: translate(-50%,10%);
+            width:900px;
+            height: 770px;
+            background:black;
+            box-sizing: border-box;
+            padding:3rem;
+            border-radius: 14px;
+            box-shadow: 0 18px 28pxrgba(255, 255, 255, 0.56);
+            font-size: 1.5rem;
+            color:aliceblue;
+            
+}
+.co{
+            
+            background-image: url("https://c.files.bbci.co.uk/952B/production/_112078183_battered.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            height: 600px;
+            font-size: 20px; 
+            text-align:center;
+}
+a:link {
+  color:blue;
+}
+span{
+ 
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color:blue;
+}
+/* mouse over link */
+a:hover {
+  color:rgb(14, 59, 2);
+}
+
+/* selected link */
+a:active {
+  color: rgb(252, 138, 62);
+}
+
+#doctors {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  
+}
+
+#doctors td, #doctors th {
+  border: 1px solid rgb(8, 8, 8);
+  padding: 8px;
+  text-align: center;
+}
+
+#doctors tr:nth-child(even){background-color: #f2f2f2;}
+
+#doctors tr:hover {background-color: rgb(231, 112, 112);}
+
+#doctors th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1e1b9b;
+  color: white;
+}
+.center{
+  margin-left: 80mm;
+  margin-right: auto;
+}
+.r6 img {
+  height: 600px;
+  width:800px;
+ display: block;
+ margin-left: auto;
+  margin-right: auto;
+  border-width: 5px;
+    border-style:solid;
+    padding: 5px;
+    border-color: rgba(5, 5, 92, 0.904);
+    
+}
